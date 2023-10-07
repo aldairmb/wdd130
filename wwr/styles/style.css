@@ -83,3 +83,12 @@ nav a:hover {
 footer p {
     font-size: 1.2em;
 }   
+
+.book, .join {
+    background-color: #7182B2;
+}
+
+/* Background color for .book and .join on hover */
+.book:hover, .join:hover {
+    background-color: beige; /* Change to the desired hover color */
+}
