@@ -2,6 +2,7 @@
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
+    background-color: #9DBBAE;
 }
 
 /* Centering the navigation links */
@@ -29,7 +30,7 @@ main section {
 }
 
 nav {
-    background-color: #9DBBAE;
+    background-color: #21124C;
 }
 
 body {
