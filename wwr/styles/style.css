@@ -1,98 +1,138 @@
+header {
+    text-align: left;
+    background-color: #9DBBAE;
+}
+
+/* General Styles */
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2, footer p {
+    margin: 0;
+    text-decoration: none;
+}
+
+/* Container Styles */
 #content {
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
-    background-color: #9DBBAE;
+    background-color: #F2EAE4;
+}
+.home-title {
+    margin-top: 10px;
 }
 
-/* Centering the navigation links */
-nav a {
+
+.home-grid {
     text-align: center;
 }
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
 
-/* Centering the headings in the hero message */
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+
+nav a {
+    color: #21124C;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Hero Styles */
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 
-/* Centering elements within the button box */
 .button-box {
-    text-align: center;
+    padding: 15px 30px;
 }
 
-/* Centering sections within the main element */
-main section {
-    text-align: center;
-}
-
-#background {
-    height: 725px;
-}
-
-nav {
+/* Button Styles */
+.join, .book {
     background-color: #7182B2;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-body {
-    background-color: #fcfbfb; 
+.join:hover, .book:hover {
+    background-color: beige;
+    padding: 15px 30px;
 }
 
-/* Footer background color */
-footer {
-    background-color: #7182B2;
-    color: #21124C;
-}
-
-/* Background color for elements with class .msg */
-.msg {
-    background-color: #7182B2;
-    color: #21124C;
-}
-
-/* Text color for .home-title and h4 */
-.home-title, h4 {
-    color: #21124C;
-}
-
-/* Width for the logo */
-.logo {
+/* Logo and Icon Styles */
+.logo, .icon {
     width: 80px;
 }
 
-/* Width for card icons */
 .icon {
-    width: 80px;
+    padding-top: 10px;
 }
 
-/* Responsive width for the hero image */
+/* Hero Image Styles */
 #hero-img {
     width: 100%;
 }
 
-nav a {
-    text-align: center;
-    color: #21124C;
-    text-decoration: none;
-}    
-
-/* Text color for nav links on hover */
-nav a:hover {
-    color: white /* Change to the desired hover color */
+/* Message Styles */
+.msg {
+    background-color:  #9DBBAE;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 50px;
 }
 
-footer p {
-    font-size: 1.2em;
-}   
-
-.button-box, .join {
-    background-color: #7182B2;
-}
-
-/* Background color for .book and .join on hover */
-.button-box:hover, .join:hover {
-    background-color: beige; /* Change to the desired hover color */
+.msg p {
+    padding-bottom: 15px;
 }
 
 #background {
     background-color: #7182B2;
+    padding: 200px;
+    margin-bottom: 50px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #9DBBAE;
+    color: #21124C;
+    padding: 25px 50px;
+    margin-top: 200px;
+    text-align: left;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer a, .social a {
+    text-decoration: none;
+    color: #21124C;
+}
+
+footer a:hover, .social a:hover {
+    color: white;
+}
+
+/* Home Title Styles */
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
 }
