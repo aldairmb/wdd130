@@ -1,6 +1,8 @@
 header {
     text-align: left;
     background-color: #9DBBAE;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 /* General Styles */
@@ -32,6 +34,33 @@ h2, footer p {
 .home-grid {
     text-align: center;
 }
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.card-img, .mountains {
+    width: 100%;
+}
+
+.rivers-card {
+    grid-column: 2 / span 2; /* Centered within a 10-column grid */
+    grid-row: 2 / span 1;
+}
+
+.camping-card {
+    grid-column: 5 / span 2; /* Centered within a 10-column grid */
+    grid-row: 2 / span 1;
+}
+
+.rapids-card {
+    grid-column: 8 / span 2; /* Centered within a 10-column grid */
+    grid-row: 2 / span 1;
+}
+
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
@@ -39,8 +68,15 @@ h2, footer p {
 .card-img {
     border: 10px solid #d9c2a3;
 }
+
+
 main section img {
     box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a {
@@ -64,7 +100,7 @@ nav a:hover {
 
 /* Button Styles */
 .join, .book {
-    background-color: #7182B2;
+    background-color:#9DBBAE;
     font-size: 18px;
     text-decoration: none;
     padding: 15px 30px;
@@ -73,8 +109,14 @@ nav a:hover {
 }
 
 .join:hover, .book:hover {
-    background-color: beige;
+    background-color: #7182B2;
     padding: 15px 30px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 /* Logo and Icon Styles */
@@ -105,8 +147,7 @@ nav a:hover {
 
 #background {
     background-color: #7182B2;
-    padding: 200px;
-    margin-bottom: 50px;
+    padding: 300px;
 }
 
 /* Footer Styles */
@@ -115,7 +156,9 @@ footer {
     color: #21124C;
     padding: 25px 50px;
     margin-top: 200px;
-    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer .social img {
@@ -135,4 +178,43 @@ footer a:hover, .social a:hover {
 .home-title {
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em;
+}
+
+#background {
+    grid-column: 1 / span 11;
+    grid-row: 4 / span 5;
+}
+
+.mountains {
+    grid-column: 2 / span 6;
+    grid-row: 5 / span 3;
+}
+
+.msg {
+    grid-column: 6 / span 5;
+    grid-row: 6 / span 1;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.msg {
+    background-color: #D5C3A7;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.mountains {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
 }
