@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: black;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Helvetica', sans-serif;
+}
+
+
+header {
+    text-align: center;
+    background-color: #6D83B6;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    width: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 35px 70px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: black;
+    padding: 35px 70px;
+}
+
+#hero {
+    background-color: #6D83B6;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.home-title {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 100%;
+    top: 47%;
+    transform: translateY(-40%);
+    grid-column: 1/11;
+    grid-row: 1/2;
+    z-index: 2; 
+    font-size: 22vw;
+}
+
+.home-details {
+    position: relative; /* Change to relative */
+    text-align: right;
+    color: white;
+    grid-column: 3/5; /* Adjusted grid columns to 3-5 */
+    grid-row: 4/6;   /* Adjusted grid rows to 3-6 */
+    z-index: 2; 
+    
+}
+
+#hero-img {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+    grid-column: 1/11;
+    grid-row: 1/11;
+}
