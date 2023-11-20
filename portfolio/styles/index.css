@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
+/* General Styles */
 body {
     font-family: 'Helvetica', sans-serif;
     background-color: black;
@@ -14,7 +15,7 @@ p {
     font-family: 'Helvetica', sans-serif;
 }
 
-
+/* Header Styles */
 header {
     text-align: center;
     background-color: #6D83B6;
@@ -49,6 +50,7 @@ nav a:hover {
     padding: 35px 70px;
 }
 
+/* Hero Styles */
 #hero {
     background-color: #6D83B6;
     display: grid;
