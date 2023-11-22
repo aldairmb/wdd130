@@ -88,3 +88,32 @@ nav a:hover {
     grid-column: 1/11;
     grid-row: 1/11;
 }
+
+/* Category Styles */
+.category-title {
+    color: #33C4A9;
+    font-size: 7vw;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #6D83B6;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .social img {
+    width: 40px;
+    padding-top: 15px;
+}
+
+footer a, .social a, footer p {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover, .social a:hover {
+    color: black;
+}
