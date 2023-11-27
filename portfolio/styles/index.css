@@ -18,9 +18,10 @@ p {
 /* Header Styles */
 header {
     text-align: center;
-    background-color: #6D83B6;
+    background-color: #33C4A9;
     display: grid;
     grid-template-columns: 150px auto;
+    z-index: 4;
 }
 
 #logo_link {
@@ -35,6 +36,7 @@ header {
 
 nav {
     display: flex;
+    background-color: #33C4A9;
     justify-content: space-around;
 }
 
@@ -49,6 +51,7 @@ nav a:hover {
     background-color: black;
     padding: 35px 70px;
 }
+
 
 /* Hero Styles */
 #hero {
@@ -66,7 +69,8 @@ nav a:hover {
     grid-column: 1 / span 10;
     grid-row: 7/11;
     z-index: 2; 
-    font-size: 23vw;
+    font-size: 22vw;
+    padding-bottom: 0;
     margin: 0;
 }
 
@@ -80,7 +84,7 @@ nav a:hover {
 }
 
 #hero img {
-    width: 55%;
+    width: 60%;
     display: block;
     margin: 0 auto;
     z-index: 1;
