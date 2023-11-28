@@ -98,7 +98,6 @@ nav a:hover {
     font-size: 7vw;
     grid-column: 4/22;
     grid-row: 4/8;
-    margin-bottom: 30px;
 }
 
 .button-box {
@@ -123,6 +122,7 @@ nav a:hover {
 
 /* Portrait Styles */
 #portraits{
+    margin-top: 8vw;
     display: grid;
     grid-template-columns: repeat(40, 1fr);
     grid-template-rows: repeat(11, 50px);
@@ -157,6 +157,7 @@ nav a:hover {
 
 /* Sports Styles */
 #sports{
+    margin-top: 8vw;
     display: grid;
     grid-template-columns: repeat(40, 1fr);
     grid-template-rows: repeat(11, 50px);
@@ -192,6 +193,7 @@ nav a:hover {
 
 /* Events Styles */
 #events{
+    margin-top: 8vw;
     display: grid;
     grid-template-columns: repeat(40, 1fr);
     grid-template-rows: repeat(11, 50px);
