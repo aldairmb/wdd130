@@ -97,13 +97,15 @@ nav a:hover {
     color: white;
     font-size: 7vw;
     grid-column: 4/22;
-    grid-row: 8/11;
+    grid-row: 7/11;
+    position: relative;
 }
 
 .button-box {
     margin-top: 40px; 
     grid-column: 4/22;
-    grid-row: 15/17;
+    grid-row: 14/17;
+    position: relative;
 }
 
 .button {
