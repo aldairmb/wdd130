@@ -148,7 +148,7 @@ nav a:hover {
 
 #portraits-1 {
     grid-column: 27/34;
-    grid-row: 7/14;
+    grid-row: 8/14;
     width: 100%;
     z-index: 3;
     border: 1px solid white;
@@ -182,7 +182,7 @@ nav a:hover {
 
 #sports-1 {
     grid-column: 26/34;
-    grid-row: 6/16;
+    grid-row: 7/16;
     width: 100%;
     z-index: 3;
     border: 1px solid white;
