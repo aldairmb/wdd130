@@ -98,12 +98,12 @@ nav a:hover {
     font-size: 7vw;
     grid-column: 4/22;
     grid-row: 4/8;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .button-box {
     grid-column: 4/22;
-    grid-row: 7/14;
+    grid-row: 8/14;
 }
 
 .button {
@@ -125,12 +125,12 @@ nav a:hover {
 #portraits{
     display: grid;
     grid-template-columns: repeat(40, 1fr);
-    grid-template-rows: repeat(11, 1fr);
+    grid-template-rows: repeat(11, 50px);
 }
 
 #portraits-3 {
-    grid-column: 26/36;
-    grid-row: 4/7;
+    grid-column: 24/36;
+    grid-row: 3/7;
     width: 100%;
     z-index: 1;
     border: 1px solid white;
@@ -139,7 +139,7 @@ nav a:hover {
 
 #portraits-2 {
     grid-column: 21/28;
-    grid-row: 5/10;
+    grid-row: 4/10;
     width: 100%;
     z-index: 2;
     border: 1px solid white;
@@ -147,8 +147,8 @@ nav a:hover {
 }
 
 #portraits-1 {
-    grid-column: 27/34;
-    grid-row: 8/14;
+    grid-column: 27/33;
+    grid-row: 6/14;
     width: 100%;
     z-index: 3;
     border: 1px solid white;
@@ -159,12 +159,12 @@ nav a:hover {
 #sports{
     display: grid;
     grid-template-columns: repeat(40, 1fr);
-    grid-template-rows: repeat(11, 1fr);
+    grid-template-rows: repeat(11, 50px);
 }
 
 #sports-3 {
     grid-column: 24/35;
-    grid-row: 4/7;
+    grid-row: 3/7;
     width: 100%;
     z-index: 1;
     border: 1px solid white;
@@ -173,7 +173,7 @@ nav a:hover {
 
 #sports-2 {
     grid-column: 20/27;
-    grid-row: 5/10;
+    grid-row: 4/10;
     width: 100%;
     z-index: 2;
     border: 1px solid white;
@@ -182,7 +182,7 @@ nav a:hover {
 
 #sports-1 {
     grid-column: 26/34;
-    grid-row: 7/16;
+    grid-row: 6/16;
     width: 100%;
     z-index: 3;
     border: 1px solid white;
@@ -194,12 +194,12 @@ nav a:hover {
 #events{
     display: grid;
     grid-template-columns: repeat(40, 1fr);
-    grid-template-rows: repeat(11, 1fr);
+    grid-template-rows: repeat(11, 50px);
 }
 
 #events-3 {
     grid-column: 24/35;
-    grid-row: 4/7;
+    grid-row: 3/7;
     width: 100%;
     z-index: 1;
     border: 1px solid white;
@@ -208,7 +208,7 @@ nav a:hover {
 
 #events-2 {
     grid-column: 20/27;
-    grid-row: 5/10;
+    grid-row: 4/10;
     width: 100%;
     z-index: 2;
     border: 1px solid white;
