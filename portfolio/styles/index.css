@@ -99,12 +99,13 @@ nav a:hover {
     grid-column: 4/22;
     grid-row: 7/11;
     position: relative;
+    margin-bottom: 50px;
 }
 
 .button-box {
-    margin-top: 40px; 
+    margin-top: 85px; 
     grid-column: 4/22;
-    grid-row: 14/17;
+    grid-row: 12/17;
     position: relative;
 }
 
