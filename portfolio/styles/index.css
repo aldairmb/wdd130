@@ -52,6 +52,9 @@ nav a:hover {
     padding: 35px 70px;
 }
 
+#content {
+    text-align: center;
+}
 
 /* Hero Styles */
 #hero {
@@ -96,13 +99,12 @@ nav a:hover {
 .category-title {
     color: white;
     font-size: 7vw;
-    grid-column: 4/22;
-    grid-row: 4/8;
+    grid-column: 3/8;
+    margin-bottom: 3vw;
 }
 
 .button-box {
-    grid-column: 4/22;
-    grid-row: 8/14;
+    grid-column: 3/8;
 }
 
 .button {
@@ -110,7 +112,6 @@ nav a:hover {
     font-size: 18px;
     text-decoration: none;
     padding: 15px 30px;
-    margin-top: 50px;
     border-radius: 5px;
     color: white;
 }
@@ -122,109 +123,44 @@ nav a:hover {
 
 /* Portrait Styles */
 #portraits{
-    margin-top: 8vw;
     display: grid;
-    grid-template-columns: repeat(40, 1fr);
-    grid-template-rows: repeat(11, 50px);
+    grid-template-columns: repeat(10, 1fr);
+    margin-top: 15vw;
+
 }
 
-#portraits-3 {
-    grid-column: 24/36;
-    grid-row: 3/7;
+#portraits1{
+    grid-column: 3/8;
     width: 100%;
-    z-index: 1;
-    border: 1px solid white;
     position: relative;
 }
 
-#portraits-2 {
-    grid-column: 21/28;
-    grid-row: 4/10;
-    width: 100%;
-    z-index: 2;
-    border: 1px solid white;
-    position: relative;
-}
-
-#portraits-1 {
-    grid-column: 27/33;
-    grid-row: 6/14;
-    width: 100%;
-    z-index: 3;
-    border: 1px solid white;
-    position: relative;
-}
-
-/* Sports Styles */
+/* Sport Styles */
 #sports{
-    margin-top: 8vw;
     display: grid;
-    grid-template-columns: repeat(40, 1fr);
-    grid-template-rows: repeat(11, 50px);
+    grid-template-columns: repeat(10, 1fr);
+    margin-top: 15vw;
 }
 
-#sports-3 {
-    grid-column: 24/35;
-    grid-row: 3/7;
+#sports1{
+    grid-column: 3/8;
     width: 100%;
-    z-index: 1;
-    border: 1px solid white;
     position: relative;
 }
 
-#sports-2 {
-    grid-column: 20/27;
-    grid-row: 4/10;
-    width: 100%;
-    z-index: 2;
-    border: 1px solid white;
-    position: relative;
-}
-
-#sports-1 {
-    grid-column: 26/34;
-    grid-row: 6/16;
-    width: 100%;
-    z-index: 3;
-    border: 1px solid white;
-    position: relative;
-}
-
-
-/* Events Styles */
-#events{
-    margin-top: 8vw;
+/* Event Styles */
+#events {
     display: grid;
-    grid-template-columns: repeat(40, 1fr);
-    grid-template-rows: repeat(11, 50px);
+    grid-template-columns: repeat(10, 1fr);
+    margin-top: 15vw;
 }
 
-#events-3 {
-    grid-column: 24/35;
-    grid-row: 3/7;
+#events1{
+    grid-column: 3/8;
     width: 100%;
-    z-index: 1;
-    border: 1px solid white;
     position: relative;
 }
 
-#events-2 {
-    grid-column: 20/27;
-    grid-row: 4/10;
-    width: 100%;
-    z-index: 2;
-    border: 1px solid white;
-    position: relative;
-}
-
-#events-1 {
-    grid-column: 26/34;
-    grid-row: 6/16;
-    width: 100%;
-    z-index: 3;
-    border: 1px solid white;
-    position: relative;
-}
 
 /* Footer Styles */
 footer {
