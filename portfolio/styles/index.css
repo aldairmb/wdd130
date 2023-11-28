@@ -125,7 +125,7 @@ nav a:hover {
 #portraits{
     display: grid;
     grid-template-columns: repeat(40, 1fr);
-    grid-template-rows: repeat(14, 1fr);
+    grid-template-rows: repeat(11, 1fr);
 }
 
 #portraits-3 {
@@ -159,7 +159,7 @@ nav a:hover {
 #sports{
     display: grid;
     grid-template-columns: repeat(40, 1fr);
-    grid-template-rows: repeat(14, 1fr);
+    grid-template-rows: repeat(11, 1fr);
 }
 
 #sports-3 {
@@ -194,7 +194,7 @@ nav a:hover {
 #events{
     display: grid;
     grid-template-columns: repeat(40, 1fr);
-    grid-template-rows: repeat(14, 1fr);
+    grid-template-rows: repeat(11, 1fr);
 }
 
 #events-3 {
