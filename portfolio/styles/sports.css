@@ -80,6 +80,81 @@ nav a:hover {
     grid-row: 1 / span 10;
 }
 
+/* Sport styles */
+#sports-row {
+    margin: 75px;
+    display: grid;
+    grid-template-columns: repeat(21, 1fr);
+}
+
+#sports-1 {
+    grid-column: 2/11;
+    width: 100%;
+    border: 1px solid white;
+    position: relative;
+}
+
+#sports-2 {
+    grid-column: 12/21;
+    width: 100%;
+    border: 1px solid white;
+    position: relative;
+}
+
+/* Event styles */
+#sports-wide {
+    margin: 75px;
+    display: grid;
+    grid-template-columns: repeat(21, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+
+#wide-sports-1 {
+    grid-column: 2/16;
+    grid-row: 1/11;
+    width: 100%;
+    border: 1px solid white;
+    position: relative;
+}
+
+
+#wide-sports-2 {
+    grid-column: 17/21;
+    grid-row: 1/6;
+    width: 100%;
+    border: 1px solid white;
+    position: relative;
+}
+
+#wide-sports-3 {
+    grid-column: 17/21;
+    grid-row: 5/8;
+    width: 100%;
+    border: 1px solid white;
+    position: relative;
+}
+
+#sports-wide2 {
+    margin: 75px;
+    display: grid;
+    grid-template-columns: repeat(21, 1fr);
+}
+
+#wide2-sports-1 {
+    grid-column: 2/15;
+    width: 100%;
+    border: 1px solid white;
+    position: relative;
+}
+
+#wide2-sports-2 {
+    grid-column: 16/21;
+    width: 98%;
+    border: 1px solid white;
+    position: relative;
+}
+
+
 /* Footer Styles */
 footer {
     margin-top: 400px;
