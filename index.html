@@ -4,21 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD130 | Home Page</title>
-    <link rel="styles" href="styles.css">
 </head>
 <body>
-    <nav>
-        <a href="wwr/index.html">White Water Rafting Website</a>
-        <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
+    <style>
+    body {
+      font-family: "Lato", sans-serif;
+    }
+    
+    .sidenav {
+      height: 100%;
+      width: 160px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+    
+    .sidenav a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+    }
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+    .main {
+      margin-left: 160px; /* Same as the width of the sidenav */
+      font-size: 28px; /* Increased text to enable scrolling */
+      padding: 0px 10px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    </style>
+    
+    <div class="sidenav">
+        <a href="wwr/index.html">WWR Website</a>
+        <a href="wwr/site-plan-rafting.html">WWR Siteplan</a>
         <a href="positioning.html">Positioning Activity</a>
         <a href="portfolio/index.html">Personal Website</a>
         <a href="portfolio/site_plan_portfolio.html">Personal Siteplan</a>
         <a href="wwr/contactus.html">Contact Us</a>
-    </nav>   
-    <h1>Aldair Morales</h1>              
-    <img width="500" lang src="aldair_morales.jpeg" alt="Ces't Moi"> 
-    <p>I'm from Mexico.</p>
-    <p>I'm a marketing major.</p>
-    <p>I'm into photography.</p>
+    </div>
+    
+    <div class="main">
+      <h1>My work</h1>
+      <p>My name is Aldair Morales.</p>
+      <p>I am BYU-Idaho student, majoring in marketing, with a minor in web design. </p>
+      <p>This is some of the work I've done this semester in my Web Fundamentals class.</p>
+    </div>
+       
 </body>
 </html>
