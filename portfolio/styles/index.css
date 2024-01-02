@@ -285,7 +285,7 @@ footer a:hover {
     }
     
     #about {
-        border-top: 0;
+        padding-bottom: 20px;
     }
 
     #me {
@@ -293,7 +293,7 @@ footer a:hover {
     }
     
     #about p {
-        font-size: 2.4vw;
+        font-size: 4vw;
         grid-column: 2/20; 
      }
 
